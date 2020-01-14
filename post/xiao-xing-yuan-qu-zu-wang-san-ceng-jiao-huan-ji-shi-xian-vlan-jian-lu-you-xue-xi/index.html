@@ -8,7 +8,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-<link rel="shortcut icon" href="https://tong-hao123.github.io//favicon.ico?v=1578979069320">
+<link rel="shortcut icon" href="https://tong-hao123.github.io//favicon.ico?v=1578980927356">
 <link rel="stylesheet" href="https://tong-hao123.github.io//styles/main.css">
 
 
@@ -18,10 +18,10 @@
 
 
 
-    <meta name="description" content="小型园区组网（三层交换机实现VLAN间路由）学习
-1.配置主机ip、子网掩码及网关
+    <meta name="description" content="1.配置主机ip、子网掩码及网关
 PC1：192.168.1.2   255.255.255.0    192.168.1.1
-PC2：192.168.2.2   255.255.255.0..." />
+PC2：192.168.2.2   255.255.255.0    192.168.2.1
+PC3：192.1..." />
     <meta name="keywords" content="运维" />
   </head>
   <body>
@@ -31,7 +31,7 @@ PC2：192.168.2.2   255.255.255.0..." />
   <div class="top-container" data-aos="fade-right">
     <div class="top-header-container">
       <a class="site-title-container" href="https://tong-hao123.github.io/">
-        <img src="https://tong-hao123.github.io//images/avatar.png?v=1578979069320" class="site-logo">
+        <img src="https://tong-hao123.github.io//images/avatar.png?v=1578980927356" class="site-logo">
         <h1 class="site-title">Gridea</h1>
       </a>
       <div class="menu-btn" @click="menuVisible = !menuVisible">
@@ -100,8 +100,7 @@ PC2：192.168.2.2   255.255.255.0..." />
               </div>
             
             <div class="post-content" v-pre>
-              <p>小型园区组网（三层交换机实现VLAN间路由）学习<br>
-1.配置主机ip、子网掩码及网关</p>
+              <p>1.配置主机ip、子网掩码及网关</p>
 <p>PC1：192.168.1.2   255.255.255.0    192.168.1.1</p>
 <p>PC2：192.168.2.2   255.255.255.0    192.168.2.1</p>
 <p>PC3：192.168.1.3   255.255.255.0    192.168.1.1</p>
@@ -152,11 +151,7 @@ PC2：192.168.2.2   255.255.255.0..." />
 <p>quit                            //退出接口</p>
 <p>quit                            //退出配置</p>
 <p>save                            //保存</p>
-<p>5.测试PC2（VLAN3 192.168.2.2）ping PC3(https://tong-hao123.github.io//post-images/1578973593153.jpg)</p>
-<!-- more -->
-<p>感谢：<br>
-版权声明：本文为CSDN博主「HOPEAMOR」的原创文章，遵循 CC 4.0 BY-SA 版权协议，转载请附上原文出处链接及本声明。<br>
-原文链接：https://blog.csdn.net/qq_40163937/article/details/88886995</p>
+<p>5.测试PC2（VLAN3 192.168.2.2）ping PC3(VLAN2 192.168.1.3)</p>
 
             </div>
             

@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://tong-hao123.github.io/</id>
     <title>Gridea</title>
-    <updated>2020-01-14T06:11:15.332Z</updated>
+    <updated>2020-01-17T07:41:44.995Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://tong-hao123.github.io/"/>
     <link rel="self" href="https://tong-hao123.github.io/atom.xml"/>
@@ -10,6 +10,25 @@
     <logo>https://tong-hao123.github.io/images/avatar.png</logo>
     <icon>https://tong-hao123.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, Gridea</rights>
+    <entry>
+        <title type="html"><![CDATA[你的硬盘空间去哪了？Space Sniffer告诉你]]></title>
+        <id>https://tong-hao123.github.io/post/ni-de-ying-pan-kong-jian-qu-na-liao-space-sniffer-gao-su-ni</id>
+        <link href="https://tong-hao123.github.io/post/ni-de-ying-pan-kong-jian-qu-na-liao-space-sniffer-gao-su-ni">
+        </link>
+        <updated>2020-01-17T07:25:37.000Z</updated>
+        <content type="html"><![CDATA[<p>电脑上C盘空间占慢，但是不知道什么文件占用导致，每个文件夹右键属性查看占用大小很麻烦，不直观，总结方案如下。<br>
+软件使用：SpaceSniffer<br>
+https://www.fosshub.com/SpaceSniffer.html<br>
+1.运行此软件<br>
+<img src="https://tong-hao123.github.io//post-images/1579246434052.png" alt="" loading="lazy"><br>
+2.选择需要清理的磁盘，C盘为系统盘，优先清理磁盘<img src="https://tong-hao123.github.io//post-images/1579246573434.png" alt="" loading="lazy"><br>
+3.耐心等待一会，软件会把每个文件及文件夹占用情况绘成图块占比信息<br>
+<img src="https://tong-hao123.github.io//post-images/1579246608347.png" alt="" loading="lazy"><br>
+4.如果需要对某一个文件夹再进行详细分析，左键点击对应方块即可查看<img src="https://tong-hao123.github.io//post-images/1579246653229.png" alt="" loading="lazy"><br>
+5.如果需要删除某个文件夹，在对应的方块上右键选择删除即可<br>
+<img src="https://tong-hao123.github.io//post-images/1579246668249.png" alt="" loading="lazy"></p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[小型园区组网（三层交换机实现VLAN间路由）学习]]></title>
         <id>https://tong-hao123.github.io/post/xiao-xing-yuan-qu-zu-wang-san-ceng-jiao-huan-ji-shi-xian-vlan-jian-lu-you-xue-xi</id>
